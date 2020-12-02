@@ -12,7 +12,7 @@ const server = new ApolloServer({
     context: ({ req }) => ({ req })
 });
 
-const PORT = 3000 || process.env.PORT;
+const PORT = 4000 || process.env.PORT;
 
 // useNewUrlParser depracated, using useUnifiedTopology
 mongoose.connect(MONGODB, { useNewUrlParser: true, useUnifiedTopology: true })
