@@ -10,7 +10,7 @@ const Home = () => {
 
     return (
         <Grid columns={3}>
-            <Grid.Row>
+            <Grid.Row className="page-title">
                 <h1>Feed</h1>
             </Grid.Row>
             <Grid.Row>
