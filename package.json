@@ -17,7 +17,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "serve": "node server",
+    "server": "node server",
     "start": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
