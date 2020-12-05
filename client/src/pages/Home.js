@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <Grid columns={3}>
             <Grid.Row className="page-title">
-                <h1>Feed</h1>
+                <h1>feed</h1>
             </Grid.Row>
             <Grid.Row>
                 { loading ? (
