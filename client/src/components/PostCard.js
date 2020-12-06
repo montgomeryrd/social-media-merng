@@ -28,7 +28,7 @@ const PostCard = ({ post: { body, createdAt, id, username, likeCount, commentCou
             <Card.Content extra>
                 <Button as='div' labelPosition='right' onClick={likePost}>
                     <Button color='teal' basic>
-                        <Icon name='heart empty'/>
+                        <Icon name='heart'/>
                         Like
                     </Button>
                     <Label as='a' basic color='teal' pointing='left'>

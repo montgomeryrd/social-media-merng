@@ -14,18 +14,18 @@ const Home = () => {
                 <h1>feed</h1>
             </Grid.Row>
             <Grid.Row>
-                { loading ? (
+                {loading ? (
                     <h1>loading posts...</h1>
                 ) : (
-                    posts && posts.map(post => (
-                        <Grid.Column key={ post.id } style={{ marginBottom: 20 }}>
-                            <PostCard post={ post } />
-                        </Grid.Column>
-                    ))
-                )}
+                        posts && posts.map(post => (
+                            <Grid.Column key={post.id} style={{ marginBottom: 20 }}>
+                                <PostCard post={post} />
+                            </Grid.Column>
+                        ))
+                    )}
             </Grid.Row>
         </Grid>
-    )
+    );
 }
 
 const FETCH_POSTS_QUERY = gql`
